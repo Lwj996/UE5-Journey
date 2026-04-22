@@ -1,23 +1,24 @@
 # 第 1 周：精确到小时的计划
 
-> 目标：搭好环境，跑通 Epic 官方 Starter Course 前 4 章，写 4 篇日志。
+> 起止：**2026-04-22（Wed）~ 2026-04-28（Tue）**  
+> 目标：搭好环境，跑通 Epic 官方 Starter Course 前 4 章，写 7 篇日志 + 1 篇周报。
 
 ## 时间表总览
 
-| 日期 | 时段 | 主题 | 时长 |
-|------|------|------|------|
-| Day 1（今天 Wed） | 晚间 | 环境搭建 + 仓库初始化 | 2h |
-| Day 2（Thu） | 晚间 | Epic 账号绑定 + 官方课 Ch.1 | 2h |
-| Day 3（Fri） | 晚间 | 官方课 Ch.2（UE 界面导航） | 2h |
-| Day 4（Sat） | 全天 | 官方课 Ch.3 + 第一个小场景 | 6h |
-| Day 5（Sun） | 全天 | 官方课 Ch.4 + Actor 框架笔记 + 周报 | 6h |
-| Day 6（Mon） | 晚间 | 蓝图变量与函数 | 2h |
-| Day 7（Tue） | 晚间 | 蓝图事件与接口 | 2h |
-| **合计** | | | **22h** |
+| Day | 日期 | 星期 | 时段 | 主题 | 时长 |
+|-----|------|------|------|------|------|
+| Day 1 | **04-22** | Wed | 晚间 | 环境搭建 + 仓库初始化 | 2h |
+| Day 2 | **04-23** | Thu | 晚间 | Starter Course Ch.1 | 2h |
+| Day 3 | **04-24** | Fri | 晚间 | Starter Course Ch.2（编辑器导航） | 2h |
+| Day 4 | **04-25** | Sat | 全天 | Starter Course Ch.3 + 第一个小场景 | 6h |
+| Day 5 | **04-26** | Sun | 全天 | Starter Course Ch.4 + 周报 | 6h |
+| Day 6 | **04-27** | Mon | 晚间 | 蓝图变量与函数 | 2h |
+| Day 7 | **04-28** | Tue | 晚间 | 蓝图事件与接口 | 2h |
+| **合计** | | | | | **22h** |
 
 ---
 
-## Day 1（今天）· 2 小时 · 环境与仓库
+## Day 1 · 04-22 Wed · 2 小时 · 环境与仓库
 
 ### 任务清单
 - [ ] **0:00 - 0:10** 安装 Epic Games Launcher（[下载](https://store.epicgames.com/download)）
@@ -58,7 +59,7 @@ git push -u origin dev
 
 ---
 
-## Day 2（Thu）· 2 小时 · Starter Course Ch.1
+## Day 2 · 04-23 Thu · 2 小时 · Starter Course Ch.1
 
 ### 任务
 - [ ] **0:00 - 1:30** 跟完 Epic 官方 [UE 5.7 Starter Course](https://dev.epicgames.com/community/learning/tutorials/bE7Z/unreal-engine-5-7-starter-course) 的 Chapter 1（Introduction & Installation）
@@ -68,7 +69,7 @@ git push -u origin dev
 
 ---
 
-## Day 3（Fri）· 2 小时 · Starter Course Ch.2
+## Day 3 · 04-24 Fri · 2 小时 · Starter Course Ch.2
 
 ### 任务
 - [ ] **0:00 - 1:30** Starter Course Chapter 2（Navigating the Editor）
@@ -83,7 +84,7 @@ git push -u origin dev
 
 ---
 
-## Day 4（Sat）· 6 小时 · Starter Course Ch.3 + 第一个场景
+## Day 4 · 04-25 Sat · 6 小时 · Starter Course Ch.3 + 第一个场景
 
 ### 任务
 - [ ] **0:00 - 2:00** Starter Course Chapter 3（Actors & Placement）
@@ -101,7 +102,7 @@ git push -u origin dev
 
 ---
 
-## Day 5（Sun）· 6 小时 · Starter Course Ch.4 + 周报
+## Day 5 · 04-26 Sun · 6 小时 · Starter Course Ch.4 + 周报
 
 ### 任务
 - [ ] **0:00 - 2:30** Starter Course Chapter 4（Blueprints Introduction）
@@ -118,7 +119,7 @@ git push -u origin dev
 
 ---
 
-## Day 6（Mon）· 2 小时 · 蓝图变量与函数
+## Day 6 · 04-27 Mon · 2 小时 · 蓝图变量与函数
 
 ### 任务
 - [ ] **0:00 - 1:30** 跟一个 YouTube 教程深入蓝图（推荐 Matt Aspland 的《Blueprint Basics》系列）
@@ -129,7 +130,7 @@ git push -u origin dev
 
 ---
 
-## Day 7（Tue）· 2 小时 · 蓝图事件与接口
+## Day 7 · 04-28 Tue · 2 小时 · 蓝图事件与接口
 
 ### 任务
 - [ ] **0:00 - 1:30** 学：
