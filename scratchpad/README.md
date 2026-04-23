@@ -34,4 +34,5 @@
 
 ## 文件列表（最新在前）
 
+- [2026-04-23 · Claude Opus 4.7 vs 4.6 日常使用对比](./2026-04-23-claude-opus-4.7-vs-4.6.md)
 - [2026-04-23 · GPT Image-2 初体验观察](./2026-04-23-gpt-img2-observations.md)
