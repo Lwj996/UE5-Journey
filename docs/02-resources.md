@@ -46,7 +46,8 @@
 - [Reids Channel](https://www.youtube.com/@ReidsChannel) — 进阶技巧
 - [Ben Ormstad](https://www.youtube.com/@BenOrmstad) — GAS 教程
 
-### 中文（少量使用）
+### 中文
+- ⭐ **[UE5 入门精修翻译版 · BV1qYSvBHELW](https://www.bilibili.com/video/BV1qYSvBHELW/)** — 仓库主人当前主用入门教程。精修翻译，细节到"装在哪个磁盘"级别，适合零基础。**注意**：节奏偏慢，建议快进观看；UE 历史等无关章节可跳过。
 - B 站搜 "UE5 入门"、"虚幻引擎" 找评论区活跃的 UP 主
 - 初期帮助理解概念，但**中文资源永远比英文慢 6 个月**，后期必须转英文
 
