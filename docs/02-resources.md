@@ -39,6 +39,7 @@
 ## YouTube 频道（免费且质量高）
 
 ### 英文
+
 - ⭐ [Gorka Games](https://www.youtube.com/@GorkaGames) — 新手友好，有很多俯视角 Roguelike 教程
 - ⭐ [Matt Aspland](https://www.youtube.com/@MattAspland) — 蓝图 101 系列最全
 - [Ryan Laley](https://www.youtube.com/@RyanLaley) — 系统性教程
@@ -47,6 +48,7 @@
 - [Ben Ormstad](https://www.youtube.com/@BenOrmstad) — GAS 教程
 
 ### 中文
+
 - ⭐ **[UE5 入门精修翻译版 · BV1qYSvBHELW](https://www.bilibili.com/video/BV1qYSvBHELW/)** — 仓库主人当前主用入门教程。精修翻译，细节到"装在哪个磁盘"级别，适合零基础。**注意**：节奏偏慢，建议快进观看；UE 历史等无关章节可跳过。
 - B 站搜 "UE5 入门"、"虚幻引擎" 找评论区活跃的 UP 主
 - 初期帮助理解概念，但**中文资源永远比英文慢 6 个月**，后期必须转英文
@@ -82,11 +84,13 @@
 ## 工具软件
 
 ### 必装
+
 - **Visual Studio 2022 Community** — UE C++ 开发
 - **Git + Git LFS** — 版本控制
 - **Rider for Unreal Engine**（可选付费）— 比 VS 好用的 IDE
 
 ### 推荐
+
 - **ScreenToGif** — 录 GIF，发仓库用
 - **Obsidian** — Markdown 笔记（比 VS Code 好做长期笔记）
 - **Excalidraw**（网页版）— 画架构图、UML
@@ -98,6 +102,7 @@
 ## 求职平台（第 11 个月起）
 
 ### 海外（重点）
+
 - ⭐ [Hitmarker](https://hitmarker.net/) — 游戏行业专门求职
 - ⭐ [Work With Indies](https://workwithindies.com/) — 独立工作室
 - [Remote Game Jobs](https://remotegamejobs.com/)
@@ -107,6 +112,7 @@
 - [Glassdoor](https://www.glassdoor.com/)
 
 ### 外包
+
 - [Upwork](https://www.upwork.com/)
 - [Fiverr](https://www.fiverr.com/)
 
