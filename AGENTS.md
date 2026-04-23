@@ -89,6 +89,10 @@ UE5-Journey/
 │       ├── vocabulary.md        高频技术词汇
 │       └── phonetics.md         发音规则（自建）
 │
+├── scratchpad/                  随手记（与 UE5 学习无直接关系的零碎观察）
+│   ├── README.md
+│   └── YYYY-MM-DD-topic.md      AI 工具体验、行业观察、想法闪念等
+│
 └── assets/                      图片、GIF、架构图
 ```
 
@@ -96,7 +100,7 @@ UE5-Journey/
 
 | 用户给你的内容 | 放哪里 |
 |---------------|--------|
-| 今天发生了什么、心情、反思 | `journal/YYYY-MM-DD-day-XX.md` |
+| 今天的 UE 学习记录、心情、反思 | `journal/YYYY-MM-DD-day-XX.md` |
 | 一周复盘 | `journal/YYYY-MM-DD-week-XX-summary.md` |
 | 学到的某个 UE 概念（如蓝图变量） | `notes/ue5-concepts/NN-topic.md` |
 | 学到的某个 C++ 写法 | `notes/cpp/NN-topic.md` |
@@ -104,6 +108,17 @@ UE5-Journey/
 | 新发现的好教程 / 工具 | `docs/02-resources.md` |
 | 长期计划调整 | `docs/00-roadmap.md` |
 | 截图 / GIF | `assets/`，文件名 `day-XX-描述.gif` |
+| **零碎观察、AI 工具体验、行业八卦、想法闪念** | **`scratchpad/YYYY-MM-DD-topic.md`** |
+
+### 判别 journal vs scratchpad
+
+| 特征 | journal/ | scratchpad/ |
+|------|---------|-------------|
+| 与 UE5 学习直接相关？ | ✅ 是 | ❌ 否 |
+| 必须双语？ | ✅ 是 | ❌ 否（中文为主即可） |
+| 必须套结构化模板？ | ✅ 是 | ❌ 否 |
+| 必须每天一篇？ | ✅ 是 | ❌ 否（想到再写） |
+| 典型例子 | "今天跟完 Starter Course Ch.1" | "试用了 GPT Image-2，色彩比上代好很多" |
 
 ---
 
@@ -150,6 +165,7 @@ feature/*  ←  特定专题（如 feature/gas-notes）
 - 笔记：`docs(notes/ue5): ...`、`docs(notes/cpp): ...`、`docs(notes/english): ...`
 - 资源：`docs(resources): ...`
 - 路线图：`docs(roadmap): ...`
+- 随手记：`docs(scratchpad): ...`
 - Agents 自身：`chore(agents): ...`
 
 ### 格式建议（多行）
@@ -243,6 +259,19 @@ docs(journal): day-02 first UE editor open
 ### D. "更新一下路线图 / 资源"
 1. 在对应 `docs/` 文件里更新
 2. 注明修改原因（commit message 写清楚）
+
+### E. "我聊点别的 / 随手记一下"
+- 用户分享与 UE5 学习无直接关系的内容（AI 工具体验、行业观察、闲聊金句、灵感片段等）
+1. 判断是否值得归档：
+   - 有保留价值（观察、想法、教训）→ 进 `scratchpad/`
+   - 纯闲聊（"你说的对"、"哈哈"）→ 不归档，正常对话即可
+2. 归档时：
+   - 文件名 `scratchpad/YYYY-MM-DD-topic-slug.md`
+   - 中文为主，**不强制双语**、**不套结构化模板**
+   - 保留用户原话的味道，必要时补 1-2 段 AI 视角的评论或提醒
+   - 末尾可以加一段"关联到 UE5 学习"，把闲聊钩回主线（如果能钩）
+3. 更新 `scratchpad/README.md` 的文件列表（最新在前）
+4. commit message：`docs(scratchpad): YYYY-MM-DD <topic>`
 
 ---
 

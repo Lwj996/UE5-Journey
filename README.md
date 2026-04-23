@@ -83,8 +83,9 @@ Full plan: [`docs/00-roadmap.md`](./docs/00-roadmap.md)
 ```
 UE5-Journey/
 ├── docs/          Long-form plans (roadmap, weekly plans, architecture)
-├── journal/       Daily / weekly learning log entries
+├── journal/       Daily / weekly learning log entries (bilingual)
 ├── notes/         Topic-based notes (UE concepts, C++, English vocab)
+├── scratchpad/    Loose observations not directly tied to UE5 learning
 └── assets/        Images, GIFs, diagrams
 ```
 
