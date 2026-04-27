@@ -322,7 +322,7 @@ docs(journal): day-02 first UE editor open
 
 > 这部分会随时间过时——AI 看到时请用 `git log --oneline -5` 验证最新状态。
 
-- **当前周次**：Week 1（2026-04-22 ~ 04-28）
+- **当前周次**：Week 1 修订（2026-04-27 ~ 05-03；04-24~26 空档已记入日志）
 - **当前日**：见 `docs/01-week-01-detailed.md`
 - **最近提交**：用 `git log --oneline -5` 查
 - **当前分支**：默认 `dev`
@@ -337,5 +337,5 @@ docs(journal): day-02 first UE editor open
 ---
 
 **Maintainer**: Repository owner  
-**Last updated**: 2026-04-23  
+**Last updated**: 2026-04-27  
 **Convention**: [agents.md](https://agents.md/) standard

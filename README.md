@@ -4,7 +4,7 @@
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]()
 [![Week](https://img.shields.io/badge/week-1-blue)]()
-[![Engine](https://img.shields.io/badge/UE-5.6-black)]()
+[![Engine](https://img.shields.io/badge/UE-5.7-black)]()
 [![Hours/Week](https://img.shields.io/badge/commit-22h%2Fweek-orange)]()
 
 English | [简体中文](./README.zh-CN.md)
@@ -67,7 +67,7 @@ Full plan: [`docs/00-roadmap.md`](./docs/00-roadmap.md)
 
 ## Current Progress
 
-- [x] Environment setup (UE 5.6 + Visual Studio 2022)
+- [x] Environment setup (UE 5.7 + Visual Studio 2022)
 - [x] GitHub linked with Epic for source access
 - [ ] Epic official Starter Course (UE 5.7)
 - [ ] First playable prototype
@@ -102,7 +102,7 @@ UE5-Journey/
 
 ## Tech Stack
 
-**Engine**: Unreal Engine 5.6 · C++ · Blueprint · Enhanced Input · GAS  
+**Engine**: Unreal Engine 5.7 · C++ · Blueprint · Enhanced Input · GAS  
 **Tooling**: Visual Studio 2022 · Rider · Git · Perforce (planned)  
 **Adjacent**: Blender · Substance Painter · Python (editor scripting)
 

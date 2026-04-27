@@ -62,7 +62,7 @@
 
 ## 当前进度
 
-- [x] 环境搭建（UE 5.6 + Visual Studio 2022）
+- [x] 环境搭建（UE 5.7 + Visual Studio 2022）
 - [x] Epic 账号已绑定 GitHub，获取源码权限
 - [ ] 完成 Epic 官方 Starter Course（UE 5.7）
 - [ ] 第一个可玩原型
@@ -88,7 +88,7 @@ UE5-Journey/
 
 ## 技术栈
 
-**引擎**：Unreal Engine 5.6 · C++ · Blueprint · Enhanced Input · GAS  
+**引擎**：Unreal Engine 5.7 · C++ · Blueprint · Enhanced Input · GAS  
 **工具**：Visual Studio 2022 · Rider · Git · Perforce（计划中）  
 **周边**：Blender · Substance Painter · Python（编辑器脚本）
 

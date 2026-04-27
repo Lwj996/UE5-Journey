@@ -1,166 +1,124 @@
-# 第 1 周：精确到小时的计划
+# 第 1 周：精确到小时的计划（修订版）
 
-> 起止：**2026-04-22（Wed）~ 2026-04-28（Tue）**  
-> 目标：搭好环境，跑通 Epic 官方 Starter Course 前 4 章，写 7 篇日志 + 1 篇周报。
+> **原计划**：2026-04-22（Wed）~ 04-28（Tue）  
+> **实际情况**：04-24（Fri）~ 04-26（Sun）未学习（玩游戏去了），原表从 Day 3 起未执行。  
+> **修订后起止**：**2026-04-27（Mon）~ 2026-05-03（Sun）** —— 从今天起按本表执行，总投入仍为 **22h**。  
+> **教程**：主跟 [B 站精修翻译 BV1qYSvBHELW](https://www.bilibili.com/video/BV1qYSvBHELW/)；需要对照英文界面时，可并行打开 [UE 5.7 Starter Course](https://dev.epicgames.com/community/learning/tutorials/bE7Z/unreal-engine-5-7-starter-course) 查章节名。
 
-## 时间表总览
-
-| Day | 日期 | 星期 | 时段 | 主题 | 时长 |
-|-----|------|------|------|------|------|
-| Day 1 | **04-22** | Wed | 晚间 | 环境搭建 + 仓库初始化 | 2h |
-| Day 2 | **04-23** | Thu | 晚间 | Starter Course Ch.1 | 2h |
-| Day 3 | **04-24** | Fri | 晚间 | Starter Course Ch.2（编辑器导航） | 2h |
-| Day 4 | **04-25** | Sat | 全天 | Starter Course Ch.3 + 第一个小场景 | 6h |
-| Day 5 | **04-26** | Sun | 全天 | Starter Course Ch.4 + 周报 | 6h |
-| Day 6 | **04-27** | Mon | 晚间 | 蓝图变量与函数 | 2h |
-| Day 7 | **04-28** | Tue | 晚间 | 蓝图事件与接口 | 2h |
-| **合计** | | | | | **22h** |
+**已完成的进度（保留，不重做）**  
+- Day 01 · 04-22：仓库、路线图、部分环境/下载  
+- Day 02 · 04-23：教程选型、午休笔记（晚上若未补全，可在 Day 3 顺带补一句）
 
 ---
 
-## Day 1 · 04-22 Wed · 2 小时 · 环境与仓库
+## 时间表总览（修订）
 
-### 任务清单
-- [ ] **0:00 - 0:10** 安装 Epic Games Launcher（[下载](https://store.epicgames.com/download)）
-- [ ] **0:10 - 0:40** 通过 Epic Launcher 下载安装 UE 5.6（约 60GB，用零碎时间下，此刻先开始下载就行）
-- [ ] **0:10 - 0:30** 下载 Visual Studio 2022 Community（[下载](https://visualstudio.microsoft.com/vs/community/)）
-  - 安装时勾选：
-    - `Game development with C++`（必选）
-    - `Desktop development with C++`
-    - 右侧单独组件勾 `Unreal Engine installer` 和 `Windows 10/11 SDK`
-- [ ] **0:30 - 0:45** 注册 GitHub 账号（如果没有）+ 开启 2FA
-- [ ] **0:45 - 1:00** Epic 账号绑定 GitHub
-  - 访问 [https://www.unrealengine.com/en-US/ue-on-github](https://www.unrealengine.com/en-US/ue-on-github)
-  - 登录 Epic → 输入 GitHub 用户名 → 同意 EULA
-  - 去 GitHub 邮箱收邀请，点 Accept
-  - 验证：访问 [https://github.com/EpicGames/UnrealEngine](https://github.com/EpicGames/UnrealEngine) 能打开即可
-- [ ] **1:00 - 1:30** 配置本地 Git + 首次推送 `UE5-Journey` 仓库（见下方详细步骤）
-- [ ] **1:30 - 2:00** 写 Day 1 日志（复制 `journal/TEMPLATE.md`）
-
-### 把仓库推到 GitHub 的完整命令
-打开 GitHub 网页，点右上角 `+` → `New repository` → 仓库名填 `UE5-Journey` → 选 `Public` → **不要勾** README / .gitignore / LICENSE（我们已经本地生成了）→ Create。
-
-然后在 PowerShell 里依次跑（**把 YOUR_USERNAME 替换成你的 GitHub 用户名**）：
-
-```powershell
-# 设置 Git 身份（只需一次，用真实姓名和 GitHub 邮箱）
-git config --global user.name "Your Name"
-git config --global user.email "your_github_email@example.com"
-
-# 推送到 GitHub（workspace 已经初始化为仓库）
-cd d:\aaaWORK\Object\UE5
-git remote add origin https://github.com/YOUR_USERNAME/UE5-Journey.git
-git branch -M main
-git push -u origin main
-
-# 把 dev 分支也推上去
-git push -u origin dev
-```
+| 学习日 | 日期 | 星期 | 时长 | 主题（接续原 Day 3 起） |
+|--------|------|------|------|-------------------------|
+| Day 03 | **04-27** | Mon | 2h | 编辑器导航 + 快捷键 + `01-editor-basics.md` |
+| Day 04 | **04-28** | Tue | 2h | Actor 放置 / 关卡里摆东西（Ch.3 类内容） |
+| Day 05 | **04-29** | Wed | 2h | 继续 Ch.3 + 开做「小场景」 |
+| Day 06 | **04-30** | Thu | 2h | 小场景收尾 + **录 GIF** |
+| Day 07 | **05-01** | Fri | 2h | 蓝图入门：变量、BeginPlay、Tick、Print |
+| Day 08 | **05-02** | Sat | 6h | 闪烁方块练习 + `02-actor-framework.md` 图 + 蓝图变量/函数 |
+| Day 09 | **05-03** | Sun | 6h | Event / Dispatcher / BPI + **Week 1 周报** + `dev` → `main` |
+| **合计** | | | **22h** | |
 
 ---
 
-## Day 2 · 04-23 Thu · 2 小时 · Starter Course Ch.1
+## Day 03 · 04-27 Mon · 2h · 编辑器导航
 
 ### 任务
-- [ ] **0:00 - 1:30** 跟完 Epic 官方 [UE 5.7 Starter Course](https://dev.epicgames.com/community/learning/tutorials/bE7Z/unreal-engine-5-7-starter-course) 的 Chapter 1（Introduction & Installation）
-  - 全程开英文字幕，不懂的词记到 `notes/english-vocabulary.md`
-- [ ] **1:30 - 1:50** 在 `notes/ue5-concepts/` 建一个 `01-editor-basics.md`，记录今天的 3 个关键词（至少）
-- [ ] **1:50 - 2:00** 写 Day 2 日志，commit + push
+- [ ] **0:00 - 0:05** 打开 `journal/2026-04-27-day-03.md`，写两句：空档三天、今天回到学习（不自我攻击，只记录事实）
+- [ ] **0:05 - 1:35** B 站教程：**编辑器 / 视口 / 大纲 / 细节 / 内容浏览器** 相关章节（快进可以，**快捷键部分慢放**）
+  - 练熟：`W/E/R`、`F`、`G`、`Alt + 鼠标`、Content Browser 搜索
+- [ ] **1:35 - 1:50** 新建或更新 `notes/ue5-concepts/01-editor-basics.md`（至少 5 个面板英文名 + 1 句干啥用的）
+- [ ] **1:50 - 2:00** 日志双语补全、`git commit` + `push`
 
 ---
 
-## Day 3 · 04-24 Fri · 2 小时 · Starter Course Ch.2
+## Day 04 · 04-28 Tue · 2h · Actor 与放置
 
 ### 任务
-- [ ] **0:00 - 1:30** Starter Course Chapter 2（Navigating the Editor）
-  - 重点练：Viewport 控制（鼠标中键/右键/F 聚焦）
-  - 熟记快捷键：
-    - `W/E/R` = 移动/旋转/缩放 Gizmo
-    - `F` = 聚焦选中物体
-    - `G` = 游戏视图切换
-    - `Alt + 鼠标` = 环绕视角
-- [ ] **1:30 - 1:50** 更新 `notes/ue5-concepts/01-editor-basics.md`
-- [ ] **1:50 - 2:00** 日志 + commit
+- [ ] **0:00 - 1:40** 跟教程：**往关卡里放 Actor、移动/旋转/缩放、简单打光**（对应 Starter Course Ch.3 一类内容）
+- [ ] **1:40 - 1:50** 往 `01-editor-basics.md` 加 3 条「我今天点过的菜单英文名」
+- [ ] **1:50 - 2:00** 日志 + commit + push
 
 ---
 
-## Day 4 · 04-25 Sat · 6 小时 · Starter Course Ch.3 + 第一个场景
+## Day 05 · 04-29 Wed · 2h · 小场景（上）
 
 ### 任务
-- [ ] **0:00 - 2:00** Starter Course Chapter 3（Actors & Placement）
-- [ ] **2:00 - 2:30** 休息
-- [ ] **2:30 - 5:00** 自己做一个"小岛场景"
-  - 用 Quixel Megascans（通过 Fab）下载一些免费资源
-  - 放 20 个以上 Actor（树、石头、建筑）
-  - 加一个 Directional Light + Sky Atmosphere
-  - 加一个 Player Start
-  - 按 Play，用 WASD 走一圈
-- [ ] **5:00 - 5:40** 录一段 10 秒 GIF（用 [ScreenToGif](https://www.screentogif.com/)），放进 `assets/`
-- [ ] **5:40 - 6:00** 写 Day 4 日志，把 GIF 嵌进去
-
-**关键：这是你第一次"做出来"东西，一定要录 GIF 发进仓库。**
+- [ ] **0:00 - 1:45** 开做「小岛 / 小广场」任一场景：先堆 **10+** 个静态 Mesh（树、石、建筑均可）
+- [ ] **1:45 - 2:00** 日志 + commit（可只提交文字；**大图/GIF 别强塞 Git**，放 `assets/` 即可）
 
 ---
 
-## Day 5 · 04-26 Sun · 6 小时 · Starter Course Ch.4 + 周报
+## Day 06 · 04-30 Thu · 2h · 小场景（下）+ GIF
 
 ### 任务
-- [ ] **0:00 - 2:30** Starter Course Chapter 4（Blueprints Introduction）
-  - 学：变量、Print String、Event BeginPlay、Tick
+- [ ] **0:00 - 0:30** 补光：Directional Light + Sky Atmosphere（按教程来）
+- [ ] **0:30 - 0:40** 放 **Player Start**，Third Person 或当前模板能 **Play 跑一圈**
+- [ ] **0:40 - 1:20** 继续加到 **20+** 个 Actor，整体能看
+- [ ] **1:20 - 1:50** [ScreenToGif](https://www.screentogif.com/) 录 **~10s**，保存 `assets/week01-scene.gif`（或类似命名）
+- [ ] **1:50 - 2:00** 日志里嵌入 GIF 路径 + commit + push
+
+---
+
+## Day 07 · 05-01 Fri · 2h · 蓝图入门（上）
+
+### 任务
+- [ ] **0:00 - 1:40** 跟教程：**第一张蓝图、变量、Print String、Event BeginPlay、Tick（概念摸到即可）**
+- [ ] **1:40 - 1:50** 计划：周末两天要攻「闪烁方块 + 继承关系图」
+- [ ] **1:50 - 2:00** 日志 + commit + push
+
+---
+
+## Day 08 · 05-02 Sat · 6h · 闪烁方块 + Actor 框架图 + 蓝图函数
+
+### 任务
+- [ ] **0:00 - 2:30** 练习：**Tick + Sine（或教程同款）驱动材质**，做「会闪/会呼吸颜色」的方块
 - [ ] **2:30 - 3:00** 休息
-- [ ] **3:00 - 4:30** 练习：做一个"会闪烁颜色的方块"（用 Tick + Sine + Dynamic Material Instance）
-- [ ] **4:30 - 5:30** 在 `notes/ue5-concepts/` 新建 `02-actor-framework.md`，画一张 UML 图（用 Excalidraw），梳理 Actor / Pawn / Character / Controller 的继承关系
-- [ ] **5:30 - 6:00** 写 **Week 1 周报**（放 `journal/2026-04-xx-week-01-summary.md`），合并 dev 分支到 main：
+- [ ] **3:00 - 4:30** `notes/ue5-concepts/02-actor-framework.md`：**Actor / Pawn / Character / Controller / GameMode** 继承关系（Excalidraw 导出 PNG → `assets/`）
+- [ ] **4:30 - 5:30** 补充：蓝图 **变量类型**、**自定义函数**（可跟 Matt Aspland Blueprint Basics 任一集，**英文**当听力）
+- [ ] **5:30 - 6:00** 日志 + commit + push
+
+---
+
+## Day 09 · 05-03 Sun · 6h · 事件/接口 + 周报 + 合并 main
+
+### 任务
+- [ ] **0:00 - 2:00** **Custom Event vs Function**、**Event Dispatcher**、**Blueprint Interface（BPI）**（概念 + 小例子）
+- [ ] **2:00 - 2:30** 休息
+- [ ] **2:30 - 4:00** 在 `03-blueprint-basics.md`（可新建）里做 **JS ↔ UE** 对照表（EventEmitter、interface…）
+- [ ] **4:00 - 5:30** 写 **`journal/2026-05-03-week-01-summary.md`**
+- [ ] **5:30 - 6:00** 合并发布：
   ```powershell
   git checkout main
   git merge dev
   git push origin main
+  git checkout dev
   ```
 
 ---
 
-## Day 6 · 04-27 Mon · 2 小时 · 蓝图变量与函数
-
-### 任务
-- [ ] **0:00 - 1:30** 跟一个 YouTube 教程深入蓝图（推荐 Matt Aspland 的《Blueprint Basics》系列）
-  - 重点：变量类型（Bool/Int/Float/String/Vector/Object）
-  - 重点：自定义函数、函数参数、返回值
-- [ ] **1:30 - 1:50** 笔记
-- [ ] **1:50 - 2:00** 日志
-
----
-
-## Day 7 · 04-28 Tue · 2 小时 · 蓝图事件与接口
-
-### 任务
-- [ ] **0:00 - 1:30** 学：
-  - Custom Event vs Function（区别：Event 可绑定 Dispatcher、Function 可返回值）
-  - Event Dispatcher（事件分发器，对标 JS 的 EventEmitter）
-  - Blueprint Interface（BPI，多态）
-- [ ] **1:30 - 1:50** 笔记 + 画一个对比表（JS 对应 UE 概念）
-- [ ] **1:50 - 2:00** 日志 + 规划第 2 周
-
----
-
-## 每日结束检查表（复制粘贴到日志里）
+## 每日结束检查表
 
 ```markdown
-- [ ] 今天学的 3 个关键词（中英对照）记到 `notes/english-vocabulary.md`
-- [ ] 新概念写进 `notes/ue5-concepts/`
-- [ ] 至少 1 次 git commit
-- [ ] 日志写完了
-- [ ] 明天要做什么心里有数了
+- [ ] 3 个关键词（中英）→ `notes/english/vocabulary.md`
+- [ ] 新概念 → `notes/ue5-concepts/`
+- [ ] 至少 1 次 commit
+- [ ] 当天 `day-XX` 日志已更新
 ```
 
 ---
 
-## 疑难问题怎么办
+## 疑难
 
-1. **装不上 UE**：Epic Launcher → Cache 清理 → 换安装路径（必须是英文路径，不能有空格中文）
-2. **VS2022 没识别 UE 项目**：在 UE 里点 `Tools → Refresh Visual Studio Project`
-3. **GitHub 慢**：用 [ghproxy.com](https://ghproxy.com) 代理，或开 Watt Toolkit
-4. **蓝图崩溃**：UE 经常崩，随时保存（Ctrl+S），不要骂娘
+1. **UE 装路径**：全英文路径，无空格。  
+2. **GitHub 慢**：代理或 Watt Toolkit。  
+3. **蓝图中途崩**：`Ctrl+S` 狂魔养成习惯。
 
 ---
 
-**周日晚上写完周报后，把这份文件更新一下：下周学什么。**
+**下周（Week 2）**：动画蓝图、Mixamo、Behavior Tree —— 等本周周报写完后再写 `02-week-02-detailed.md`。
