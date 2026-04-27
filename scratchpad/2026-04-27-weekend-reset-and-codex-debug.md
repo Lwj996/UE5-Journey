@@ -58,6 +58,50 @@ echo %HTTPS_PROXY%              :: 4. 看环境变量
 
 ---
 
+## 当天真实测出来的结果（追加 · 2026-04-27 中午）
+
+跑了那 4 条排查命令，结果：
+
+```
+nslookup api.openai.com  →  198.18.0.57
+curl ... api.openai.com  →  HTTP/1.1 421, Server: cloudflare, CF-RAY: ...-ICN
+netsh winhttp show proxy →  直接访问(没有代理)
+echo %HTTPS_PROXY%       →  未设置
+```
+
+### 我学到的两个新知识点
+
+1. **`198.18.x.x` 是 fake-ip 的特征**  
+   这是 RFC2544 保留地址段，专门给 TUN 模式 / Clash 虚拟网卡用。看到这个 IP 段不要慌——说明代理在劫持 DNS，是正常的。
+
+2. **`CF-RAY: ...-ICN` 说明流量走到了韩国仁川节点**  
+   再加上 `Server: cloudflare` → 我的流量真的穿透到了 OpenAI 的 CDN，**网络这一关是通的**。
+
+3. **网络通了 Codex 还是黑屏 = UWP 沙箱坑**  
+   Microsoft Store 装的应用是 UWP/AppContainer，**走独立的网络栈，TUN 模式不一定能劫持它**。这是 Windows 一个深坑，未来做 Steam 商店分发游戏时也可能遇到。
+
+### 真要修的话（没修，记一下）
+
+```cmd
+CheckNetIsolation LoopbackExempt -a -n="OpenAI.Codex_xxx"
+```
+
+但要先找到 Package Family Name，麻烦，**没修，直接放弃**。
+
+### 最终决定
+
+**卸载 Codex 桌面版**。理由：
+1. 网络通了应用还黑屏 → 是 Store 版沙箱问题，修起来 ROI 极低
+2. Cursor 已经支持切 GPT-5.5，**能力一样体验得到**
+3. 真要测 Codex，[chatgpt.com/codex](https://chatgpt.com/codex) Web 版浏览器开就行
+
+### 给未来自己加一条规则
+
+> 装 Store / UWP 应用，**优先走非 Store 版**（官网下载的 .exe / .msi）。
+> Store 版的沙箱机制对国内代理用户不友好。
+
+---
+
 ## 反思：要不要继续折腾 Codex？
 
 **不要**。理由：
