@@ -34,6 +34,7 @@
 
 ## 文件列表（最新在前）
 
+- [2026-04-27 · 拖延心态自剖](./2026-04-27-procrastination-self-analysis.md)
 - [2026-04-27 · 周末休整记录 + Codex 桌面版排错](./2026-04-27-weekend-reset-and-codex-debug.md)
 - [2026-04-23 · Claude Opus 4.7 vs 4.6 日常使用对比](./2026-04-23-claude-opus-4.7-vs-4.6.md)
 - [2026-04-23 · GPT Image-2 初体验观察](./2026-04-23-gpt-img2-observations.md)
