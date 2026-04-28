@@ -120,6 +120,16 @@
 - "Could you elaborate on..." — 你能详细说说...
 - "Let me think for a moment" — 让我想一下（面试时可用，不要慌）
 
+## Day 03 补录（2026-04-27）
+
+| EN | 中 |
+|----|-----|
+| Developer Community (EDC) | Epic 开发者社区（发帖 / 搜答案） |
+| Category / section | 分区（发帖选对类） |
+| Project template | 工程模板（新建项目时选的那种） |
+| Sample / starter content | 示例或入门内容包 |
+| Repro steps | 复现步骤（提问要写清） |
+
 ---
 
 **学习方法**：
