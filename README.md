@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]()
 [![Week](https://img.shields.io/badge/week-1-blue)]()
 [![Engine](https://img.shields.io/badge/UE-5.7-black)]()
-[![Hours/Week](https://img.shields.io/badge/commit-22h%2Fweek-orange)]()
+[![Hours/Week](https://img.shields.io/badge/commit-6h%2Fweek-orange)]()
 
 English | [简体中文](./README.zh-CN.md)
 
@@ -40,14 +40,16 @@ Within **12 months**, build a portfolio strong enough to land a remote gameplay 
 ## Weekly Commitment
 
 ```
-Mon - Fri   2h / day   →  10h
-Sat         6h         →   6h
-Sun         6h         →   6h
+Mon - Fri   0h         →   0h   (workdays: home at 9pm, not realistic)
+Sat         3h         →   3h
+Sun         3h         →   3h
 ─────────────────────────────
-Total               22h / week
+Total                 6h / week
 ```
 
-I publish at least **one commit per day** and **one weekly summary per Sunday**.
+> **Revised on 2026-05-07.** The original 22h/week target was unrealistic for someone arriving home at 9pm, and produced more guilt than progress. New plan favors **a sustainable 6h/week that actually happens** over an impressive number that doesn't. See [`docs/02-cadence-rebuild.md`](./docs/02-cadence-rebuild.md).
+
+I publish **commits when there is content**, and **one weekly summary per Sunday**.
 
 ---
 
