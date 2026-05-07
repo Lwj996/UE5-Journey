@@ -15,6 +15,12 @@
 
 ## 文件列表（最新在前）
 
+### 节奏重建（2026-05-07 起）
+
+> 五一假期 5/1-5/5 全塌；5/6 晚回到桌前。22h/周 → 6h/周。背景见 [`scratchpad/2026-05-07-confession-after-may-holiday.md`](../scratchpad/2026-05-07-confession-after-may-holiday.md)，新执行表见 [`docs/02-cadence-rebuild.md`](../docs/02-cadence-rebuild.md)。
+
+- [Day 10 · 05-06 Wed](./2026-05-06-day-10.md) — 五一塌方后回桌：基础操作界面整体过完
+
 ### Week 1 · 修订表（2026-04-27 ~ 05-03）
 
 > 原计划 04-22 ~ 04-28；04-24 ~ 04-26 未执行，自 **04-27** 起按 [`docs/01-week-01-detailed.md`](../docs/01-week-01-detailed.md) 续跑。
