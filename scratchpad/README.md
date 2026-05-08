@@ -34,6 +34,7 @@
 
 ## 文件列表（最新在前）
 
+- [2026-05-08 · AI 时代学引擎是否已过时](./2026-05-08-ai-replacement-anxiety.md)
 - [2026-05-07 · 五一假期后的忏悔（22h/周 → 6h/周）](./2026-05-07-confession-after-may-holiday.md)
 - [2026-04-27 · 拖延心态自剖](./2026-04-27-procrastination-self-analysis.md)
 - [2026-04-27 · 周末休整记录 + Codex 桌面版排错](./2026-04-27-weekend-reset-and-codex-debug.md)
