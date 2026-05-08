@@ -19,6 +19,7 @@
 
 > 五一假期 5/1-5/5 全塌；5/6 晚回到桌前。22h/周 → 6h/周。背景见 [`scratchpad/2026-05-07-confession-after-may-holiday.md`](../scratchpad/2026-05-07-confession-after-may-holiday.md)，新执行表见 [`docs/02-cadence-rebuild.md`](../docs/02-cadence-rebuild.md)。
 
+- [Day 11 · 05-07 Thu](./2026-05-07-day-11.md) — 编辑器进阶基础操作（View Mode / Snap / Duplicate）
 - [Day 10 · 05-06 Wed](./2026-05-06-day-10.md) — 五一塌方后回桌：基础操作界面整体过完
 
 ### Week 1 · 修订表（2026-04-27 ~ 05-03）
