@@ -80,15 +80,29 @@ Full plan: [`docs/00-roadmap.md`](./docs/00-roadmap.md)
 
 ---
 
+## Repo Map · 仓库导航
+
+| I'm looking for... | Go to |
+|---|---|
+| Today's / a specific day's UE log | [`journal/`](./journal/) |
+| Roadmap, weekly plan, project architecture | [`docs/`](./docs/) |
+| Topic notes (UE concepts, C++, English vocab) | [`notes/`](./notes/) |
+| AI tool reviews · industry observations · learning-method reflections | [`scratchpad/`](./scratchpad/) |
+| **Life decisions · core fears · turning points** (kept for 5-30 years) | [`scratchpad/life/`](./scratchpad/life/) |
+| Screenshots / GIFs / diagrams | [`assets/`](./assets/) |
+
+Routing rules and authoring conventions: see [`AGENTS.md`](./AGENTS.md).
+
 ## Repository Structure
 
 ```
 UE5-Journey/
-├── docs/          Long-form plans (roadmap, weekly plans, architecture)
-├── journal/       Daily / weekly learning log entries (bilingual)
-├── notes/         Topic-based notes (UE concepts, C++, English vocab)
-├── scratchpad/    Loose observations not directly tied to UE5 learning
-└── assets/        Images, GIFs, diagrams
+├── docs/                 Long-form plans (roadmap, cadence, architecture)
+├── journal/              Daily / weekly learning logs (bilingual)
+├── notes/                Topic notes (UE concepts, C++, English vocab)
+├── scratchpad/           Loose observations not tied to UE5 learning
+│   └── life/             Life journal: decisions, fears, turning points
+└── assets/               Images, GIFs, diagrams
 ```
 
 ---

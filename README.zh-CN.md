@@ -75,15 +75,29 @@
 
 ---
 
+## 仓库导航 · Repo Map
+
+| 我想找... | 去哪里 |
+|---|---|
+| 今天 / 某天的 UE 学习记录 | [`journal/`](./journal/) |
+| 长期计划、路线图、本周表 | [`docs/`](./docs/) |
+| 整理好的知识笔记（UE / C++ / 英语） | [`notes/`](./notes/) |
+| AI 工具体验 · 行业观察 · 学习方法反思 | [`scratchpad/`](./scratchpad/) |
+| **人生抉择 · 核心恐惧 · 转折点**（5-30 年后回看） | [`scratchpad/life/`](./scratchpad/life/) |
+| 截图 / GIF / 架构图 | [`assets/`](./assets/) |
+
+详细路由规则与写作规范：见 [`AGENTS.md`](./AGENTS.md)。
+
 ## 仓库结构
 
 ```
 UE5-Journey/
-├── docs/          长篇计划（路线图、周计划、项目架构）
-├── journal/       每日 / 每周学习日志（双语）
-├── notes/         主题笔记（UE 概念、C++、英语词汇）
-├── scratchpad/    随手记（与 UE5 学习无直接关系的零碎观察）
-└── assets/        图片、GIF、示意图
+├── docs/                 长篇计划（路线图、节奏表、项目架构）
+├── journal/              每日 / 每周学习日志（双语）
+├── notes/                主题笔记（UE 概念、C++、英语词汇）
+├── scratchpad/           随手记（与 UE5 学习无直接关系的零碎观察）
+│   └── life/             人生日记（重大抉择 / 核心恐惧 / 转折点）
+└── assets/               图片、GIF、示意图
 ```
 
 ---
