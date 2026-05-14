@@ -91,7 +91,11 @@ UE5-Journey/
 │
 ├── scratchpad/                  随手记（与 UE5 学习无直接关系的零碎观察）
 │   ├── README.md
-│   └── YYYY-MM-DD-topic.md      AI 工具体验、行业观察、想法闪念等
+│   ├── YYYY-MM-DD-topic.md      AI 工具体验、行业观察、想法闪念等
+│   └── life/                    人生日记（重大抉择 / 核心恐惧 / 转折点）
+│       ├── README.md
+│       ├── TEMPLATE.md          标准化模板（含 1/5/10/20/30 年回看接口）
+│       └── YYYY-MM-DD-slug.md   单篇人生日记
 │
 └── assets/                      图片、GIF、架构图
 ```
@@ -109,6 +113,8 @@ UE5-Journey/
 | 长期计划调整 | `docs/00-roadmap.md` |
 | 截图 / GIF | `assets/`，文件名 `day-XX-描述.gif` |
 | **零碎观察、AI 工具体验、行业八卦、想法闪念** | **`scratchpad/YYYY-MM-DD-topic.md`** |
+| 学习方法反思（拖延自剖、节奏调整等"修工具"） | `scratchpad/YYYY-MM-DD-topic.md` |
+| **重大人生抉择 / 核心恐惧 / 转折点 / 深度复盘** | **`scratchpad/life/YYYY-MM-DD-slug.md`**（用 [`scratchpad/life/TEMPLATE.md`](./scratchpad/life/TEMPLATE.md) 模板，必含未来回看接口） |
 
 ### 判别 journal vs scratchpad
 
@@ -272,6 +278,22 @@ docs(journal): day-02 first UE editor open
    - 末尾可以加一段"关联到 UE5 学习"，把闲聊钩回主线（如果能钩）
 3. 更新 `scratchpad/README.md` 的文件列表（最新在前）
 4. commit message：`docs(scratchpad): YYYY-MM-DD <topic>`
+
+### F. "我有一次重大抉择 / 我很恐惧 / 我想忏悔" → **人生日记**
+- 触发信号：用户讨论换方向、付出徒劳的恐惧、能力怀疑、年龄焦虑、转折点心态、深度自我对话
+- 区分点：**E 是"对外的观察"，F 是"对内的判断"**。F 的读者是 5/10/20/30 年后的用户自己
+1. 复制 [`scratchpad/life/TEMPLATE.md`](./scratchpad/life/TEMPLATE.md)，重命名为 `scratchpad/life/YYYY-MM-DD-slug.md`
+2. **强制必填**：
+   - 日期、年龄（如不知道，留 `__岁` 占位并提醒用户补）
+   - **当时的原话**——逐字保留，**绝不修改**（包括错别字、玩笑、脏话）
+   - 当时面对的选项（A/B/C 表格）
+   - 抉择 + 当时的脑回路（不后期粉饰）
+   - 1/5/10/20/30 年回看接口（即使现在留 `_待回填_`，也**不能省**）
+3. 如果这次对话有 AI / 朋友 / 书籍输入，整理到「⑤ 外部输入」段落，**保留用户当时被打动的那一句**
+4. 末尾必填「一句话给当下的自己」
+5. 更新 [`scratchpad/life/README.md`](./scratchpad/life/README.md) 的文件列表
+6. commit message：`docs(scratchpad/life): YYYY-MM-DD <slug>`
+7. **不要**自作主张去同时改 `docs/` 计划文件——除非用户明确要求"改一下计划"。F 的核心是**记录**而非**调整**
 
 ---
 
