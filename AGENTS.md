@@ -31,10 +31,11 @@
 
 | 维度 | 描述 |
 |------|------|
+| 生日 | **2000-05-25**（用于人生日记年龄计算） |
 | 编程背景 | 3 年 JavaScript / React 前端，会一点 Godot 与 Python |
 | UE 经验 | 从零开始（2026-04-22 起步） |
 | 英语水平 | 较弱，能读懂简单文档但写不出，需要 AI 翻译 |
-| 学习节奏 | 工作日 2h / 晚，周末 6h × 2，**周三起步** |
+| 学习节奏（**修订**） | **6h/周**：工作日 0h 默认，周末 3h+3h（见 [`docs/02-cadence-rebuild.md`](./docs/02-cadence-rebuild.md)） |
 | 学习风格 | 喜欢"宝宝级"细节教程（如 B 站精修翻译），快进观看，跳过历史/废话 |
 | 写作风格 | 直接、自嘲、爱开玩笑、会自评（"我好自恋"），情绪真实 |
 | 主修方向 | **游戏程序**（Gameplay Programmer），优先海外远程 |
@@ -102,6 +103,8 @@ UE5-Journey/
 
 ### 关键判断：内容该放哪？
 
+> **铁律：每次用户给你新内容，都先走这张表分类，再动笔。** 分类不清时主动问用户，不要默认丢进 scratchpad 当垃圾桶。
+
 | 用户给你的内容 | 放哪里 |
 |---------------|--------|
 | 今天的 UE 学习记录、心情、反思 | `journal/YYYY-MM-DD-day-XX.md` |
@@ -110,11 +113,19 @@ UE5-Journey/
 | 学到的某个 C++ 写法 | `notes/cpp/NN-topic.md` |
 | 新英语单词 | `notes/english/vocabulary.md` |
 | 新发现的好教程 / 工具 | `docs/02-resources.md` |
-| 长期计划调整 | `docs/00-roadmap.md` |
+| 长期计划调整（路线图、节奏表） | `docs/00-roadmap.md` 或 `docs/02-cadence-rebuild.md` |
 | 截图 / GIF | `assets/`，文件名 `day-XX-描述.gif` |
 | **零碎观察、AI 工具体验、行业八卦、想法闪念** | **`scratchpad/YYYY-MM-DD-topic.md`** |
 | 学习方法反思（拖延自剖、节奏调整等"修工具"） | `scratchpad/YYYY-MM-DD-topic.md` |
 | **重大人生抉择 / 核心恐惧 / 转折点 / 深度复盘** | **`scratchpad/life/YYYY-MM-DD-slug.md`**（用 [`scratchpad/life/TEMPLATE.md`](./scratchpad/life/TEMPLATE.md) 模板，必含未来回看接口） |
+
+**模糊判别口诀**：
+
+- **"我学了 / 我做了 X"** → journal
+- **"我观察到 / 我试用了 / 这个工具 / 这个行业 / 我打算调整学习方法"** → scratchpad
+- **"我害怕 / 我抉择 / 我后悔 / 我此刻不知道未来怎么办"** → scratchpad/life
+- **"我整理了 / 这是 X 的笔记"** → notes
+- **"改一下计划 / 路线 / 资源"** → docs
 
 ### 判别 journal vs scratchpad
 
