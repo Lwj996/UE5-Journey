@@ -1,8 +1,17 @@
-# Roguelike 主项目架构（第 4 - 6 个月）
+# Roguelike 主项目架构（第 4 - 6 个月）· ⚠️ DEPRECATED（整篇作废）
 
-> 项目代号：**Roguelike Reborn**（暂定，你可以改）  
-> 独立仓库：`roguelike-reborn`（第 4 个月初开建）  
-> 目标：6 个月后在 itch.io 免费发布，代码开源到 GitHub，作为简历核心作品。
+> **2026-06-22 作废**：本文档是旧"找海外 gameplay 工作"路径下的设想项目（俯视角 Roguelike），整篇内容已不再适用。
+>
+> **新方向**：3D 多人 co-op 恐怖探险游戏（致命公司 / REPO 类）。
+> 详见 [`03-indie-coop-roadmap.md`](./03-indie-coop-roadmap.md) 「第一个 Mini-prototype · 设计草案」段（不是 Roguelike，是 horror co-op）。
+>
+> **本文件保留不删**——记录我曾经的项目设想（GAS 主导、过程生成、单人玩法），留给未来对照"我以为我要做 vs 我真的去做"。
+>
+> ---
+>
+> 项目代号：**Roguelike Reborn**（已废弃）  
+> 独立仓库：`roguelike-reborn`（已废弃，未开建）  
+> 原目标：6 个月后在 itch.io 免费发布，代码开源到 GitHub，作为简历核心作品。
 
 ---
 
