@@ -1,50 +1,85 @@
-# UE5-Journey
+# UE5-Journey · 独立 Co-op 恐怖游戏开发日志
 
-> 一个前端工程师转行做 Unreal Engine 5 游戏程序的公开学习日志。
+> **一个人 + AI 用 Unreal Engine 5 做小品级 co-op 恐怖游戏，目标 18 月内上 Steam。**
+> 参照：致命公司 / REPO / Content Warning / 恐鬼症。
 
 [English](./README.md) | 简体中文
 
 ---
 
-## 关于我
+## 关于
 
-你好，我是一名有 **3 年 JavaScript 开发经验** 的前端工程师，现在从零开始转型游戏开发，方向是 Unreal Engine 5。
+我是 **25 岁前端工程师**，3 年 React 经验，2026-06-22 正式转向**单人独立游戏开发**。
+之前两次走偏（最初目标是海外 gameplay 程序员岗），6/22 那天看清了：
 
-这个仓库是我的**公开学习日志**。每周我会在这里发布笔记、实验代码和思考，直到我能胜任一个国际游戏工作室的 gameplay 程序员岗位。
+> **我不是在找一份工作 offer，我是在做一款我自己想上 Steam 的游戏。**
 
-**我的背景**
-- 3 年前端专业经验（JavaScript / React）
-- 少量 Godot 经验（只做过基本移动与攻击原型）
-- Python 基础
-- 2026 年 4 月开始从零学 UE5
+这个仓库是我的公开 devlog：代码、笔记、人生日记全在一起——给 5/10/30 年后的我看。
 
----
-
-## 目标
-
-**12 个月内**，建立一份足够强的作品集，拿到一个海外工作室的远程 gameplay 程序员 offer，重点方向：
-
-- UE5 C++ 游戏逻辑开发
-- Gameplay Ability System（GAS）
-- 数据驱动设计
-- 多人联机复制
-- 使用 Unreal Insights 做性能分析
+**背景**
+- 3 年前端（JavaScript / React）
+- 用 Godot 把一个 2D 游戏做到接近完成（因为没素材放弃——现在 AI 解决了）
+- 重度 co-op 恐怖游戏玩家（致命公司、REPO、恐鬼症、Devour）
+- 2026-04 从零起步学 UE5
 
 ---
 
-## 每周投入
+## 真正的目标
+
+**18 个月内，把一款小品级 3D co-op 恐怖游戏发到 Steam**（目标日：2027-12）。
+
+参照作品：
+
+| 游戏 | 团队 | 开发时间 | 战绩 |
+|---|---|---|---|
+| Lethal Company | **1 人** | ~2 年业余 | 发布 4 月 ≈ 4000 万美金 |
+| Content Warning（链在一起） | 9 人 | ~1 年 | 免费送 24h → 600 万下载 |
+| REPO | 小工作室 | ~1.5 年 | 2025 Q1 爆款 |
+
+共同特征：**4-8 人 co-op · 物理互动 · 恐怖 + 搞笑 · 低多边形美术 · 单人开发者可达**。
+
+完整路线：[`docs/03-indie-coop-roadmap.md`](./docs/03-indie-coop-roadmap.md)
+
+---
+
+## 18 月路线（高层）
+
+| 阶段 | 月份 | 产出 |
+|---|---|---|
+| 0 · 引擎入门 | 2026-07 ~ 08 | 3 人能联机走来走去 |
+| 1 · 原型 #1 | 2026-09 ~ 10 | "捡东西带回基地"最小核心循环上 itch.io |
+| 2 · 原型 #2 | 2026-11 ~ 2027-01 | 加恐怖层（黑暗 / 音效 / 1 个怪物） |
+| 3 · Demo v0 | 2027-02 ~ 06 | **上 Steam Next Fest** |
+| 4 · 完整版 | 2027-07 ~ 12 | **上架 Steam，$5-10** |
+
+---
+
+## "一个人 + AI" 在 2026 是可行的
+
+| 任务 | AI 工具 |
+|---|---|
+| 代码（蓝图 / C++ 调试） | Cursor + Claude |
+| 美术（概念 → 3D 模型） | Midjourney → Meshy |
+| 音效 | ElevenLabs |
+| 音乐 | Suno / Udio |
+| 宣传片 / 商店页 | Runway / Veo + Claude |
+| 本地化 | Claude |
+
+18 月工具预算：**约 $1200 (8500 RMB)**。Steam 卖 200 份 $5 即回本。
+
+---
+
+## 周节奏（项目驱动）
 
 ```
-周一 - 周五   0h        →   0h   （工作日 9 点到家，2h 不现实）
-周六         3h        →   3h
-周日         3h        →   3h
-────────────────────────────────
-总计               6h / 周
+工作日   1-2 晚 × 30-60min   （可选，bonus）
+周六     ≥ 4h               （铁律）
+周日     3-5h
+─────────────────────────────────
+总计     8-12h / 周（项目阶段会自然涨）
 ```
 
-> **2026-05-07 修订**。原 22h/周 对一个晚 9 点到家的人不现实，跑了几周只产出"破戒 + 自我攻击"。新计划优先**真的会发生的 6h**，而不是好看但发生不了的 22h。背景见 [`docs/02-cadence-rebuild.md`](./docs/02-cadence-rebuild.md)。
-
-承诺：**有内容就 commit**、**每周日发一篇周报**。
+**铁律**：周六 ≥ 4h。没有这个，18 月计划不成立。
 
 ---
 
@@ -65,13 +100,14 @@
 ## 当前进度
 
 - [x] 环境搭建（UE 5.7 + Visual Studio 2022）
-- [x] Epic 账号已绑定 GitHub，获取源码权限
-- [ ] 完成 Epic 官方 Starter Course（UE 5.7）
-- [ ] 第一个可玩原型
-- [ ] C++ 基础
-- [ ] 第一个 GAS 技能
-- [ ] 第一个 itch.io 发布版本
-- [ ] 第一次投海外岗位
+- [x] Epic 账号绑定 GitHub
+- [x] 编辑器基础（界面 / view mode / snap / duplicate）
+- [x] **方向确认（2026-06-22）**：单人 co-op 恐怖独立游戏，不是找工作
+- [ ] 阶段 0 · 跟完第一个完整教程项目（目标：6/27-6/28 周末）
+- [ ] 阶段 0 · 3 人联机 "走来走去" demo
+- [ ] 阶段 1 · 第一个可玩原型上 itch.io
+- [ ] 阶段 3 · 上 Steam Next Fest
+- [ ] **阶段 4 · 上架 Steam**
 
 ---
 
@@ -102,11 +138,14 @@ UE5-Journey/
 
 ---
 
-## 技术栈
+## 技术栈（为单人 co-op 恐怖游戏聚焦）
 
-**引擎**：Unreal Engine 5.7 · C++ · Blueprint · Enhanced Input · GAS  
-**工具**：Visual Studio 2022 · Rider · Git · Perforce（计划中）  
-**周边**：Blender · Substance Painter · Python（编辑器脚本）
+**引擎**：Unreal Engine 5.7 · 蓝图优先 · C++ 仅性能瓶颈
+**联机**：Listen Server（2-4 人）· Online Subsystem Steam
+**AI 工作流**：Cursor · Claude · Midjourney · Meshy · ElevenLabs · Suno
+**工具**：Visual Studio 2022 · Git · Steam Direct
+
+**主动不学**（小品 co-op 用不到）：Nanite/Lumen 深度优化 · GAS · World Partition · 主机平台移植 · 反作弊系统。
 
 ---
 

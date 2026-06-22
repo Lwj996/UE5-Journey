@@ -16,11 +16,23 @@
 
 ---
 
-## 阶段 2 · 节奏重建（2026-05-07 起 · 6h/周可持续版）
+## 阶段 3 · 项目驱动（2026-06-22 起 · 18 月 → Steam）
+
+> **重大转向**：从"学 UE 找海外工作"转为"用 UE + AI 做小品 co-op 恐怖游戏，上 Steam"。
+> 详见 [`docs/03-indie-coop-roadmap.md`](../docs/03-indie-coop-roadmap.md) 与 [`scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md`](../scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md)。
+> 节奏：阶段 0-1 期 **6-8h/周**，项目阶段 8-12h/周。**周六 ≥ 4h 是铁律**。
+
+| 日期 | 周几 | 编号 | 主题 | UE 时长 |
+|---|---|---|---|---|
+| _尚无_ | _首条目预定 2026-06-27 (Sat)_ | _待生成_ | 跟完第一个完整入门教程 | 目标 ≥ 4h |
+
+---
+
+## 阶段 2 · 节奏重建（2026-05-07 ~ 06-22 · 已作废）
 
 > 触发：五一假期 5/1-5/5 全塌。22h/周 → 6h/周。
-> 详见 [`docs/02-cadence-rebuild.md`](../docs/02-cadence-rebuild.md) 与 [`scratchpad/2026-05-07-confession-after-may-holiday.md`](../scratchpad/2026-05-07-confession-after-may-holiday.md)。
-> 工作日 0h 默认；周末 3h+3h；加班 / 出游 1 天则当周 ≥ 3h。
+> 失败信号：5/8-6/22 共 **46 天 0h** UE，证明纯节奏调整无法解决"无反馈循环"问题。
+> 已被项目驱动节奏取代，但本阶段日志保留：
 
 | 日期 | 周几 | 编号 | 主题 | UE 时长 |
 |---|---|---|---|---|
@@ -52,7 +64,10 @@
 
 | 阶段 | 起止 | 学习日数 | 累计 UE 时长（估） |
 |---|---|---|---|
-| 阶段 1 · 启动 | 2026-04-22 ~ 05-03 | 9 个学习日 | ~16h |
-| 阶段 2 · 节奏重建 | 2026-05-06 ~ 进行中 | 2 个学习日 | ~2h |
+| 阶段 1 · 启动 | 2026-04-22 ~ 05-03 | 9 | ~16h |
+| 阶段 2 · 节奏重建 | 2026-05-06 ~ 05-07 | 2 | ~2h |
+| **阶段 3 · 项目驱动** | 2026-06-22 起 | 0（首条目预定 6/27） | 0h |
 
-> 5/8-5/13 间空档：5/9 加班 + 5/10 至 5/14 塌方；记录见 [`scratchpad/life/2026-05-14-doubt-and-fear-of-futile-effort.md`](../scratchpad/life/2026-05-14-doubt-and-fear-of-futile-effort.md)。
+**塌方记录**：
+- 5/8-5/13：5/9 加班 + 5/10 塌方 → [`scratchpad/life/2026-05-14-doubt-and-fear-of-futile-effort.md`](../scratchpad/life/2026-05-14-doubt-and-fear-of-futile-effort.md)
+- 5/15-6/22：连续 **46 天 0h** → [`scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md`](../scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md)（本次塌方直接催生方向转折）

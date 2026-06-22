@@ -1,55 +1,89 @@
-# UE5-Journey
+# UE5-Journey · Indie Co-op Horror Devlog
 
-> Public learning log of a frontend developer transitioning into Unreal Engine 5 gameplay programming.
+> **One person + AI building a small-scale co-op horror game in Unreal Engine 5, targeting Steam in 18 months.**
+> Inspired by Lethal Company / REPO / Content Warning / Phasmophobia.
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]()
-[![Week](https://img.shields.io/badge/week-1-blue)]()
+[![Phase](https://img.shields.io/badge/phase-0%20engine%20intro-blue)]()
 [![Engine](https://img.shields.io/badge/UE-5.7-black)]()
-[![Hours/Week](https://img.shields.io/badge/commit-6h%2Fweek-orange)]()
+[![Target](https://img.shields.io/badge/target-Steam%20by%202027--12-purple)]()
 
 English | [简体中文](./README.zh-CN.md)
 
 ---
 
-## About Me
+## About
 
-Hi, I'm a frontend developer with **3 years of JavaScript experience**, now pivoting into game development with Unreal Engine 5.
+I'm a **25-year-old frontend developer** with 3 years of React experience, pivoting into solo indie game dev. After two false starts (originally aiming for a remote gameplay-programmer job), I refocused on **2026-06-22**:
 
-This repository is my **public learning log**. Every week I publish notes, experiments, and reflections as I climb from zero to an employable UE5 gameplay programmer.
+> **I'm not chasing a job offer. I'm building a game I want to ship on Steam.**
+
+This repo is my public devlog: code, lessons, life-journal entries — all kept in one place so 5/10/30-year-future-me can read them.
 
 **Background**
 - 3 years professional frontend (JavaScript / React)
-- Light experience with Godot (simple movement & attack prototypes)
-- Basic Python
+- Built a 2D game in Godot to near-completion (abandoned for lack of art — now AI-solved)
+- Heavy player of co-op horror games (Lethal Company, REPO, Phasmophobia, Devour)
 - Starting UE5 from scratch in April 2026
 
 ---
 
-## The Goal
+## The Real Goal
 
-Within **12 months**, build a portfolio strong enough to land a remote gameplay programmer role at an international studio, with a focus on:
+**Ship a small-scale 3D co-op horror game on Steam within 18 months** (target: 2027-12).
 
-- C++ gameplay programming in UE5
-- Gameplay Ability System (GAS)
-- Data-driven design patterns
-- Multiplayer replication
-- Performance profiling with Unreal Insights
+Reference titles:
+
+| Game | Team size | Dev time | Result |
+|---|---|---|---|
+| Lethal Company | **1 person** | ~2 yrs side-project | ~$40M in 4 months |
+| Content Warning | 9 ppl | ~1 yr | 6M downloads from a free 24h promo |
+| REPO | small team | ~1.5 yr | 2025 Q1 hit |
+
+The pattern: **4-8 player co-op · physics interaction · horror + comedy · low-poly art · solo-dev reachable**.
+
+Full plan: [`docs/03-indie-coop-roadmap.md`](./docs/03-indie-coop-roadmap.md).
 
 ---
 
-## Weekly Commitment
+## 18-month Roadmap (high level)
+
+| Phase | Months | Output |
+|---|---|---|
+| 0 · Engine intro | 2026-07 ~ 08 | 3 players walking around in a multiplayer level |
+| 1 · Prototype #1 | 2026-09 ~ 10 | Minimal "pick up & return" core loop on itch.io |
+| 2 · Prototype #2 | 2026-11 ~ 2027-01 | Add horror layer (dark, sound, 1 monster) |
+| 3 · Demo v0 | 2027-02 ~ 06 | **Steam Next Fest entry** |
+| 4 · Full release | 2027-07 ~ 12 | **Ship on Steam, $5-10** |
+
+---
+
+## Why "One Person + AI" Is Viable in 2026
+
+| Task | AI tool |
+|---|---|
+| Code (BP / C++ debugging) | Cursor + Claude |
+| Art (concept → 3D) | Midjourney → Meshy |
+| Sound effects | ElevenLabs |
+| Music | Suno / Udio |
+| Trailer / store page | Runway / Veo + Claude |
+| Localization | Claude |
+
+Total tooling budget over 18 months: **~$1200**. Recoup point: ~200 copies at $5 on Steam.
+
+---
+
+## Weekly Pace (project-driven)
 
 ```
-Mon - Fri   0h         →   0h   (workdays: home at 9pm, not realistic)
-Sat         3h         →   3h
-Sun         3h         →   3h
-─────────────────────────────
-Total                 6h / week
+Workdays   1-2 evenings × 30-60min   (optional, bonus)
+Saturday   ≥ 4h     (iron rule)
+Sunday     3-5h
+─────────────────────────────────
+Total      8-12h / week (grows during project phases)
 ```
 
-> **Revised on 2026-05-07.** The original 22h/week target was unrealistic for someone arriving home at 9pm, and produced more guilt than progress. New plan favors **a sustainable 6h/week that actually happens** over an impressive number that doesn't. See [`docs/02-cadence-rebuild.md`](./docs/02-cadence-rebuild.md).
-
-I publish **commits when there is content**, and **one weekly summary per Sunday**.
+**Iron rule**: Saturday ≥ 4h. Without this the 18-month plan does not work.
 
 ---
 
@@ -71,12 +105,13 @@ Full plan: [`docs/00-roadmap.md`](./docs/00-roadmap.md)
 
 - [x] Environment setup (UE 5.7 + Visual Studio 2022)
 - [x] GitHub linked with Epic for source access
-- [ ] Epic official Starter Course (UE 5.7)
-- [ ] First playable prototype
-- [ ] C++ basics
-- [ ] First GAS ability
-- [ ] First published itch.io build
-- [ ] First remote job application
+- [x] Editor basics: interface, view modes, snap, duplicate
+- [x] **Direction confirmed (2026-06-22)**: solo indie co-op horror, not job-hunt
+- [ ] Phase 0 · Finish first tutorial project end-to-end (target: weekend 6/27-6/28)
+- [ ] Phase 0 · 3-player multiplayer "walk around" demo
+- [ ] Phase 1 · First playable prototype on itch.io
+- [ ] Phase 3 · Steam Next Fest entry
+- [ ] **Phase 4 · Ship on Steam**
 
 ---
 
@@ -107,20 +142,14 @@ UE5-Journey/
 
 ---
 
-## Featured Projects
+## Tech Stack (focused for solo co-op horror)
 
-| Project | Status | Repo |
-|---------|--------|------|
-| Roguelike Reborn (working title) | Planned · starts Month 3 | _coming soon_ |
-| Micro experiments | Ongoing | see `journal/` |
+**Engine**: Unreal Engine 5.7 · Blueprint-first · C++ only at bottlenecks
+**Multiplayer**: Listen Server (2-4 players) · Online Subsystem Steam
+**AI workflow**: Cursor · Claude · Midjourney · Meshy · ElevenLabs · Suno
+**Tooling**: Visual Studio 2022 · Git · Steam Direct
 
----
-
-## Tech Stack
-
-**Engine**: Unreal Engine 5.7 · C++ · Blueprint · Enhanced Input · GAS  
-**Tooling**: Visual Studio 2022 · Rider · Git · Perforce (planned)  
-**Adjacent**: Blender · Substance Painter · Python (editor scripting)
+**Intentionally NOT learning** (not needed for small co-op): Nanite/Lumen deep optimization · GAS · World Partition · console porting · anti-cheat.
 
 ---
 

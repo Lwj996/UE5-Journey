@@ -1,7 +1,15 @@
-# 12 个月路线图
+# 12 个月路线图 · ⚠️ DEPRECATED（已作废 · 仅作历史档案）
 
-> 从零到能投海外初级 Gameplay Programmer 岗位。
-> **2026-05-07 修订：22h/周 → 6h/周（可持续版）**。原因见 [`scratchpad/2026-05-07-confession-after-may-holiday.md`](../scratchpad/2026-05-07-confession-after-may-holiday.md)，新执行表见 [`02-cadence-rebuild.md`](./02-cadence-rebuild.md)。
+> **2026-06-22 作废**：方向从"找海外 gameplay 工作"转向"做独立游戏当 publisher"。
+> 新主线见 [`03-indie-coop-roadmap.md`](./03-indie-coop-roadmap.md)。
+> 作废原因见 [`scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md`](../scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md)。
+>
+> **本文件保留不删**——记录我曾经的判断路径，留给未来对照。
+>
+> ---
+>
+> 原目标：从零到能投海外初级 Gameplay Programmer 岗位。
+> **2026-05-07 修订**：22h/周 → 6h/周（可持续版）。
 > 12 个月窗口**保留**；阶段内容会按需收敛（见末尾"删减说明"）。
 
 ## 总览表（修订版）

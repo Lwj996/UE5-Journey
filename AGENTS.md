@@ -17,13 +17,17 @@
 
 ## 1. 项目概览 · Project Overview
 
-- **仓库名**：`UE5-Journey`
-- **GitHub**：https://github.com/Lwj996/UE5-Journey
-- **目标**：12 个月内拿到海外远程 Gameplay Programmer 岗位
-- **总投入**：22h / 周
-- **完整路线图**：[`docs/00-roadmap.md`](./docs/00-roadmap.md)
-- **本周计划**：[`docs/01-week-01-detailed.md`](./docs/01-week-01-detailed.md)
-- **README**：英文（给海外 HR）+ 中文双版本
+- **仓库名**：`UE5-Journey · Indie Co-op Horror Devlog`
+- **GitHub**：[github.com/Lwj996/UE5-Journey](https://github.com/Lwj996/UE5-Journey)
+- **目标**（**2026-06-22 重大转向**）：18 个月内（~2027-12）做出一款致命公司 / REPO 风格的小品 co-op 恐怖游戏，**上架 Steam**
+- **路径**：1 个人 + AI · UE5 蓝图为主 · Steam Direct 发布
+- **学习节奏**：项目驱动型 · 周末 ≥ 4h 是铁律 · 工作日少量 bonus
+- **主路线图**：[`docs/03-indie-coop-roadmap.md`](./docs/03-indie-coop-roadmap.md)
+- **作废档案**（保留不删，作历史对照）：
+  - [`docs/00-roadmap.md`](./docs/00-roadmap.md) — 旧"12 月找海外工作"路径
+  - [`docs/02-cadence-rebuild.md`](./docs/02-cadence-rebuild.md) — 旧"6h/周"cadence
+- **方向转折记录**：[`scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md`](./scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md)
+- **README**：英文 + 中文双版本
 
 ---
 
@@ -32,14 +36,15 @@
 | 维度 | 描述 |
 |------|------|
 | 生日 | **2000-05-25**（用于人生日记年龄计算） |
-| 编程背景 | 3 年 JavaScript / React 前端，会一点 Godot 与 Python |
-| UE 经验 | 从零开始（2026-04-22 起步） |
-| 英语水平 | 较弱，能读懂简单文档但写不出，需要 AI 翻译 |
-| 学习节奏（**修订**） | **6h/周**：工作日 0h 默认，周末 3h+3h（见 [`docs/02-cadence-rebuild.md`](./docs/02-cadence-rebuild.md)） |
+| 编程背景 | 3 年 JavaScript / React 前端，用 Godot 把一个 2D 游戏做到接近完成（因没素材放弃） |
+| UE 经验 | 从零开始（2026-04-22 起步），目前 ~3h 学习量（编辑器基础） |
+| 英语水平 | 较弱，能读懂简单文档但写不出，需要 AI 翻译；自然拼读法学习中，语感在涨 |
+| 学习节奏（**2026-06-22 重定**） | **项目驱动型**：阶段 0-1 期 6-8h/周，项目阶段 8-12h/周。**周末 ≥ 4h 是铁律**（见 [`docs/03-indie-coop-roadmap.md`](./docs/03-indie-coop-roadmap.md)） |
 | 学习风格 | 喜欢"宝宝级"细节教程（如 B 站精修翻译），快进观看，跳过历史/废话 |
-| 写作风格 | 直接、自嘲、爱开玩笑、会自评（"我好自恋"），情绪真实 |
-| 主修方向 | **游戏程序**（Gameplay Programmer），优先海外远程 |
-| 目标项目 | Top-down Roguelike（第 4-6 月开建独立仓库） |
+| 写作风格 | 直接、自嘲、爱开玩笑、会自评，情绪真实 |
+| 玩家身份 | **重度 co-op 恐怖游戏玩家**（致命公司、REPO、恐鬼症、Devour、吞噬）→ 这是产品判断力优势 |
+| **新主修方向**（2026-06-22 转向） | **单人独立游戏开发者**（不再追求海外工作 offer） |
+| **目标产品** | 致命公司 / REPO 风格的 3D 多人 co-op 恐怖探险游戏，**18 月内上 Steam** |
 
 ---
 
@@ -314,16 +319,21 @@ docs(journal): day-02 first UE editor open
 
 | 决策项 | 选择 | 理由 |
 |-------|------|------|
-| UE 版本 | **5.7**（用户已下载） | Epic Starter Course 对应版本 |
-| 编辑器语言 | **英文界面** | 与文档/教程对得上，强迫记英语词汇 |
-| 蓝图 vs C++ 顺序 | 前 2 个月只蓝图，第 3 月起 C++ | 先建立"世界观"再写底层 |
-| 主项目类型 | 俯视角 Roguelike | 易完成、可加 GAS/过程生成等亮点 |
-| 求职方向 | 海外远程优先（欧洲为主） | 时差友好、对中国候选人开放 |
-| 内容平台 | **GitHub 为主**（不做 B 站/抖音） | 用户明确选择 |
-| 入门教程 | B 站 BV1qYSvBHELW（精修翻译版） | 用户已选定，不要再推荐 YouTube |
-| Git 工作流 | main + dev + feature/*，每周日合并 | 已建立 |
+| **身份定位**（2026-06-22）| **Publisher，不是 Candidate** | 不投简历，自己上架 Steam |
+| **主项目类型**（2026-06-22 重定）| **3D 多人 co-op 恐怖探险游戏**（致命公司 / REPO 类） | 用户深度玩家身份 + 2024-2026 红利窗口 + 单人 + AI 可达 |
+| 平台 | **Steam（PC 独占）** | 不做主机，不做移动端 |
+| UE 版本 | **5.7** | 已下载 |
+| 编辑器语言 | **英文界面** | 与文档 / 教程 / YouTube 对得上 |
+| 蓝图 vs C++ | **蓝图为主，C++ 仅性能瓶颈** | 小品游戏不需要复杂 C++ 框架 |
+| 联机方案 | **Listen Server（2-4 人）** | 不做 dedicated server，小规模房间足够 |
+| **主动不学** | Nanite / Lumen 深度优化 · GAS · World Partition · 主机移植 · 反作弊 | 小品 co-op 用不到，节省 6+ 月时间 |
+| 美术方案 | **AI 生成（Midjourney → Meshy）+ Fab 商城** | 解决用户之前"没素材"的硬伤 |
+| 内容平台 | **GitHub 为主**（不做 B 站 / 抖音） | 用户明确选择 |
+| 入门教程 | 用户自己选（B 站 / YouTube），不强推 | 但起步从 **Third Person Template** 改，不从零搭 |
+| Git 工作流 | main + dev + feature/*，**每月底**合并 | 5/7 已下调（不再每周合） |
 | Commit 信息 | Conventional Commits，全英文 | 已建立 |
 | 日志语言 | **双语必须，英文标 AI 翻译** | 用户的反虚假承诺 |
+| 求职方向 | **已作废** | 2026-06-22 转 publisher 路径 |
 
 ---
 
@@ -355,11 +365,14 @@ docs(journal): day-02 first UE editor open
 
 > 这部分会随时间过时——AI 看到时请用 `git log --oneline -5` 验证最新状态。
 
-- **当前周次**：Week 1 修订（2026-04-27 ~ 05-03；04-24~26 空档已记入日志）
-- **当前日**：见 `docs/01-week-01-detailed.md`
-- **最近提交**：用 `git log --oneline -5` 查
+- **当前阶段**：**Phase 0 · 引擎入门**（2026-07 ~ 08 计划范围）
+- **本周（6/22-6/28）**：工作日少量看教程；**周六周日跟完一个完整 UE co-op 入门教程项目**
+- **下一里程碑**：Phase 1 · Prototype #1（"捡东西带回基地"最小循环，目标 2026-10）
+- **最近重大事件**：**2026-06-22 方向转折**——从"找海外工作"转向"做小品 co-op 恐怖游戏 publisher"
+- **最近塌方记录**：5/8-6/22 共 46 天 0h UE（见 `scratchpad/life/2026-06-22-pivot-to-coop-horror-indie.md`）
 - **当前分支**：默认 `dev`
-- **GitHub URL**：https://github.com/Lwj996/UE5-Journey
+- **最近提交**：用 `git log --oneline -5` 查
+- **GitHub URL**：[github.com/Lwj996/UE5-Journey](https://github.com/Lwj996/UE5-Journey)
 
 ---
 
