@@ -19,8 +19,11 @@
 
 - **仓库名**：`UE5-Journey · Indie Co-op Horror Devlog`
 - **GitHub**：[github.com/Lwj996/UE5-Journey](https://github.com/Lwj996/UE5-Journey)
-- **目标**（**2026-06-22 重大转向**）：18 个月内（~2027-12）做出一款致命公司 / REPO 风格的小品 co-op 恐怖游戏，**上架 Steam**
-- **路径**：1 个人 + AI · UE5 蓝图为主 · Steam Direct 发布
+- **目标**（**2026-06-22 双轨化**）：
+  - 🟦 **主线**：18 个月内（~2027-12）做出一款致命公司 / REPO 风格的小品 co-op 恐怖游戏，**上架 Steam**
+  - 🟩 **副线**：同期建立海外 UE5 兼职轨道，2027-12 月 $500-2000，2028-06 月 $2000-5000（"半全职"）
+- **路径**：1 个人 + AI · UE5 蓝图为主 · Steam Direct 发布 + Upwork / Fiverr 接单
+- **核心洞察**：主线品类（co-op 恐怖）= 副线接单品类。**一份学习两份收益。**
 - **学习节奏**：项目驱动型 · 周末 ≥ 4h 是铁律 · 工作日少量 bonus
 - **主路线图**：[`docs/03-indie-coop-roadmap.md`](./docs/03-indie-coop-roadmap.md)
 - **作废档案**（保留不删，作历史对照）：
@@ -319,7 +322,7 @@ docs(journal): day-02 first UE editor open
 
 | 决策项 | 选择 | 理由 |
 |-------|------|------|
-| **身份定位**（2026-06-22）| **Publisher，不是 Candidate** | 不投简历，自己上架 Steam |
+| **身份定位**（2026-06-22 双轨化）| **Publisher × Freelancer** | 主线自己上 Steam；副线 Upwork / Fiverr 接 UE5 兼职。**不投全职简历**。 |
 | **主项目类型**（2026-06-22 重定）| **3D 多人 co-op 恐怖探险游戏**（致命公司 / REPO 类） | 用户深度玩家身份 + 2024-2026 红利窗口 + 单人 + AI 可达 |
 | 平台 | **Steam（PC 独占）** | 不做主机，不做移动端 |
 | UE 版本 | **5.7** | 已下载 |

@@ -1,6 +1,6 @@
 # UE5-Journey · Indie Co-op Horror Devlog
 
-> **One person + AI building a small-scale co-op horror game in Unreal Engine 5, targeting Steam in 18 months.**
+> **One person + AI: shipping a small-scale co-op horror game on Steam in 18 months · while building a parallel UE5 freelance track for sustainable income.**
 > Inspired by Lethal Company / REPO / Content Warning / Phasmophobia.
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]()
@@ -28,9 +28,12 @@ This repo is my public devlog: code, lessons, life-journal entries — all kept 
 
 ---
 
-## The Real Goal
+## The Real Goal · Dual-Track
 
-**Ship a small-scale 3D co-op horror game on Steam within 18 months** (target: 2027-12).
+**🟦 Main track**: Ship a small-scale 3D co-op horror game on Steam within 18 months (target: 2027-12).
+**🟩 Side track**: Build a parallel UE5 freelance income stream, starting after Prototype #2 (target: $500-2000/mo by Steam release; $2000-5000/mo by 2028-06).
+
+> **Key insight**: the co-op horror category I'm building = the category I can freelance in. Every hour spent on the main game compounds as portfolio for the side track. **One effort, two payoffs.**
 
 Reference titles:
 
@@ -46,15 +49,16 @@ Full plan: [`docs/03-indie-coop-roadmap.md`](./docs/03-indie-coop-roadmap.md).
 
 ---
 
-## 18-month Roadmap (high level)
+## 18-month Roadmap (high level · dual-track)
 
-| Phase | Months | Output |
-|---|---|---|
-| 0 · Engine intro | 2026-07 ~ 08 | 3 players walking around in a multiplayer level |
-| 1 · Prototype #1 | 2026-09 ~ 10 | Minimal "pick up & return" core loop on itch.io |
-| 2 · Prototype #2 | 2026-11 ~ 2027-01 | Add horror layer (dark, sound, 1 monster) |
-| 3 · Demo v0 | 2027-02 ~ 06 | **Steam Next Fest entry** |
-| 4 · Full release | 2027-07 ~ 12 | **Ship on Steam, $5-10** |
+| Phase | Months | 🟦 Main · Game | 🟩 Side · Freelance |
+|---|---|---|---|
+| 0 · Engine intro | 2026-07 ~ 08 | 3 players walking around in MP | Register Upwork / Fiverr · don't take work yet |
+| 1 · Prototype #1 | 2026-09 ~ 10 | "Pick up & return" loop on itch.io | Add prototype GIF to portfolio |
+| 2 · Prototype #2 | 2026-11 ~ 2027-01 | Horror layer (dark, sound, 1 monster) | **First Fiverr gig** (break $0 barrier) |
+| 3 · Demo v0 | 2027-02 ~ 06 | **Steam Next Fest entry** | Upwork: 1-2 small jobs, build ratings |
+| 4 · Full release | 2027-07 ~ 12 | **Ship on Steam, $5-10** | **$500-2000/mo** stable freelance |
+| 5 · Beyond | 2028+ | Game #2 / maintenance | **$2000-5000/mo** ≈ half-time freelance |
 
 ---
 
